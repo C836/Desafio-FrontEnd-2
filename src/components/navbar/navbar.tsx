@@ -4,6 +4,7 @@ import './navbar.scss'
 function Navbar(){
     return(
         <nav className="nav">
+            <img className="dots" src='assets/images/menu.svg' />
             <div className="marca">
                 <img src='assets/images/logo.svg' />
                 <span>

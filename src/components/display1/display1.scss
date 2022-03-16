@@ -8,7 +8,8 @@
     div{
         display: grid;
         align-items: center;
-        grid-template-columns: 2fr 3fr; 
+        grid-template-columns: 2fr 3fr;
+        max-width: 90%;
         position: absolute;
         top: 320px;
         left: 50%;
@@ -21,6 +22,70 @@
             font: 700 82px 'Roboto Condensed', sans-serif;
             margin-right: 30px;
             width: 400px;
+            max-width: 40vw; 
+            word-break: break-word;
+
+        }
+
+        img{
+            width: 682px;
+            max-width: 40vw; 
+            user-select: none;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .display1{
+        height: 600px;
+
+        div {
+        top: 200px;
+            h1{
+            font-size: 60px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .display1{
+        height: 796px;
+
+        div{
+        grid-template-columns: 1fr;
+        top: 150px;
+        width: 85%;
+
+            h1{
+            font-size: 82.2px;
+            margin-right: 60px;
+            text-align: start;
+            max-width: none; 
+            max-width: 85%;
+            }
+
+            img{
+                margin-top: 30px;
+                width: 75vw;
+                max-width: none; 
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .display1{
+        height: 568px;
+
+        div {
+            top: 141px;
+            width: 75%;
+
+            h1{
+            font-size: 52px;
+            margin-right: 50px;
+            }
         }
     }
 }

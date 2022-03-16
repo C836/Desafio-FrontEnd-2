@@ -9,7 +9,7 @@ function Display1(){
                     Measuring
                     everything
                 </h1>
-                <img src='assets/images/img1.png' width="682px" />
+                <img src='assets/images/img1.png' />
             </div>
         </section>
     )

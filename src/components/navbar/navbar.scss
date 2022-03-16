@@ -9,10 +9,17 @@
     color: #846219;
 }
 
+.dots{
+    display: none;
+    position: absolute;
+    left: 30px;
+}
+
     .marca{
+
         span{
-        display: flex;
-        flex-direction: column;
+            display: flex;
+            flex-direction: column;
         }
     
         img{
@@ -41,5 +48,37 @@
             font-size: 16px;
             letter-spacing: 5.4px;
             margin: 60px;
+        }
+    }
+
+    @media screen and (max-width: 1090px) {
+        .menu{
+            a{
+                margin: 30px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .marca span{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 710px) {
+        .nav{
+            justify-content: center;
+        }
+
+        .dots{
+            display: block;
+        }
+
+        .marca span{
+            display: none;
+        }
+
+        .menu{
+            display: none;
         }
     }
