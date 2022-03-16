@@ -1,0 +1,45 @@
+.nav{
+    user-select: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: white;
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #846219;
+}
+
+    .marca{
+        span{
+        display: flex;
+        flex-direction: column;
+        }
+    
+        img{
+            margin: 0 20px 0 50px;
+            float: left;
+        }
+
+        h3{
+            font-size:41px;
+            font-weight: 700;
+            float:right;
+            width:200px;
+        }
+
+        p{
+            font-size: 16px;
+            letter-spacing: 5.4px;
+        }
+    }
+
+
+    .menu{
+        a{
+            color: #846219;
+            text-decoration: none;
+            font-size: 16px;
+            letter-spacing: 5.4px;
+            margin: 60px;
+        }
+    }

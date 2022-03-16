@@ -1,0 +1,45 @@
+.footer{
+    position: absolute;
+    top: 2048px;
+    background:#E9E9E9;
+    width: 100%;
+    height: 226px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #716565;
+    
+    div:first-child {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 600px;
+        margin-left: 15%;
+
+        .social{
+            user-select: none;
+            h1{
+                font-size: 28px;
+            }
+            div{
+                margin-top: 15px;
+
+                img{
+                    width: 25px;
+                    border: solid 3px #716565;
+                    margin-right: 20px;
+                    padding: 8px;
+                    border-radius: 100%;
+                }
+            }
+        }
+
+        .contact{
+            user-select: all;
+            width: 130px;
+
+            p{
+                margin-top: 15px;
+            }
+        }
+    }
+}

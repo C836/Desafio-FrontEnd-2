@@ -1,0 +1,39 @@
+.display2{
+    position: absolute;
+    background: #506FA9;
+    top: 1140px;
+    width: 100%;
+    height: 1024px;
+    user-select: none;
+
+    div{
+        font-family: 'Roboto Condensed', sans-serif;
+        color: rgb(255, 240, 240);
+        margin-left: 15%;
+        margin-top: 380px;
+
+        h1{
+            font-size: 70px;
+            max-width: 65%;
+        }
+
+        p{
+            margin-top: 40px;
+            font-size: 50px;
+
+        }
+
+        span{
+            mix-blend-mode: multiply;
+
+            img{
+                position: absolute;
+                object-fit: contain;
+                top: 40px; right: 0;
+                width: auto;
+                max-width: 65%;
+                height: 689px;
+            }
+        }
+    }
+}
